@@ -1,9 +1,11 @@
-PUT http://localhost:8080/events/2
+PUT http://localhost:8080/events/6
 content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAcS5jb20iLCJleHAiOjE3NDAzMjY1MjcsInVzZXJJZCI6Mn0.W4mURMMMFZP2QCeHA-Ca0_FlQhlzoLE614lOALKZYmM
+
 
 {
   "name": "BBQ",
-  "description": "A test BBQ",
+  "description": "BBQ event",
   "location": "A test BBQ",
   "dateTime": "2025-01-01T15:30:00.000Z"
 }
