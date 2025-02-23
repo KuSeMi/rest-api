@@ -1,11 +1,11 @@
 POST http://localhost:8080/events
 content-type: application/json
-authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAaS5jb20iLCJleHAiOjE3NDAzMjEyNjUsInVzZXJJZCI6MH0.dlXqcLbfTarvH66WYlPFqz53WldHhSd8oH2EegrY7Tg
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAcS5jb20iLCJleHAiOjE3NDAzMjQzMjgsInVzZXJJZCI6MH0.0AOldeKQpoPYBGlfOOz0y5fKbq4olMdRpUimfUjvDZM
 
 
 {
-  "name": "Test event",
-  "description": "A test event",
+  "name": "BBQ event",
+  "description": "A BBQ event",
   "location": "A test location",
   "dateTime": "2025-01-01T15:30:00.000Z"
 }
